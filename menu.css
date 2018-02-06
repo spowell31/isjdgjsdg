@@ -1,0 +1,26 @@
+#menu{
+    position: fixed;
+    left:-110px;
+    top:50px;
+    width:100px;
+    padding:5px;
+    background-color:lightblue;
+}
+
+.btn{
+    width:100%
+}
+
+.opncls{
+    width:50px;
+    right:-50px;
+    position:absolute;
+}
+
+#open{
+    top:0px;
+}
+
+#close{
+    bottom:0px;
+}

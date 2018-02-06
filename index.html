@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Test</title>
+        <link href="index.css" rel = "stylesheet" type = "text/css"/>
+        <link href="menu.css" rel = "stylesheet" type = "text/css"/>
+        <style>
+        </style>
+    <body>
+        <div id = "bg"></div>
+        <div id = "app1">
+            <div id = "zoom">
+                <div id = "zoomcontrols">
+                    <button onclick="plus()" id = "plus"  type="button"  >+</button>
+                    <button onclick="minus()" id = "minus" type="button"  >-</button>
+                </div>
+            </div>
+            <div id = "controls">
+                    <button onclick="previous()" id = "Previous"  type="button">Previous</button>
+                    <button onclick="BG1()" id = "BG1"  type="button">BG1</button>
+                    <button onclick="BG2()" id = "BG2"  type="button">BG2</button>
+                    <button onclick="BG3()" id = "BG3"  type="button">BG3</button>
+                    <button onclick="BG4()" id = "BG4"  type="button">BG4</button>
+                    <button onclick="next()" id = "next"  type="button">Next</button>
+                    <br/>
+                    <div id = "ch1" class = "bgthumbs"></div>
+                    <div id = "ch2" class = "bgthumbs"></div>
+                    <div id = "ch3" class = "bgthumbs"></div>
+            </div>
+        </div>
+        <div id = "menu">
+             <button onclick="makebg()" id = "makebg" class = "btn" type="button">Make BG</button>
+             <button onclick="resetzoom()" id = "reset" class = "btn" type="button">Reset</button>
+             <button onclick="hideapp()" id = "hideapp" class = "btn" type="button">Hide app</button>
+             <button onclick="showapp()" id = "showapp" class = "btn" type="button">Show App</button>
+             <button onclick="openmenu()" id = "open" class = "opncls" type="button">Open</button>
+             <button onclick="closemenu()" id = "close" class = "opncls" type="button">Close</button>
+        </div>
+        <script src = "menu.js"></script>
+        <script src = "index.js"></script>
+    
+    </body>
+    
+</html>
